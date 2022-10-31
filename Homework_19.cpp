@@ -46,6 +46,11 @@ public:
 
 int main()
 {
-    Animal[];
+    Animal animal;
+    Dog dog;
+    Cat cat;
+    Cow cow;
+
+    Animal* voices = &cat;
 }
 
