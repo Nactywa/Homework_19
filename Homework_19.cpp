@@ -46,11 +46,20 @@ public:
 
 int main()
 {
-    Animal animal;
-    Dog dog;
-    Cat cat;
-    Cow cow;
+    setlocale(LC_ALL, "ru");
+    
+    int size;
+    size = 3;
+    Cat* A = new Cat;
+    Dog* B = new Dog;
+    Cow* C = new Cow;
 
-    Animal* voices = &cat;
+    Animal** array = new Animal * [size] {A, B, C};
+
+    for (int f; f < size; f++)
+    {
+        array[f]->Voice();
+    }
+    
 }
 
