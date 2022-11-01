@@ -46,7 +46,7 @@ public:
 
 int main()
 {
-    setlocale(LC_ALL, "ru");
+    
     
     int size;
     size = 3;
@@ -60,6 +60,16 @@ int main()
     {
         array[f]->Voice();
     }
+
+
+
+    
+
+    delete[] A;
+
+    delete[] B;
+
+    delete[] C;
     
 }
 
