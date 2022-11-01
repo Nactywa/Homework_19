@@ -56,7 +56,7 @@ int main()
 
     Animal** array = new Animal * [size] {A, B, C};
 
-    for (int f; f < size; f++)
+    for (int f = 0; f < size; f++)
     {
         array[f]->Voice();
     }
